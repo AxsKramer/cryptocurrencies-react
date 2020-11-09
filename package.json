@@ -1,0 +1,42 @@
+{
+  "name": "crytocurrencies-react",
+  "version": "1.0.0",
+  "description": "This project shows different cryptos and  prices depends on the fiat money.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxsKramer/cryptocurrencies-react.git"
+  },
+  "keywords": [],
+  "author": "Alexander Kramer <kramer.axs1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AxsKramer/cryptocurrencies-react/issues"
+  },
+  "homepage": "https://github.com/AxsKramer/cryptocurrencies-react#readme",
+  "dependencies": {
+    "@emotion/core": "10.1.1",
+    "@emotion/styled": "10.0.27",
+    "axios": "0.21.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/preset-env": "7.12.1",
+    "@babel/preset-react": "7.12.5",
+    "babel-loader": "8.1.0",
+    "css-loader": "5.0.1",
+    "file-loader": "6.2.0",
+    "html-loader": "1.3.2",
+    "html-webpack-plugin": "4.5.0",
+    "mini-css-extract-plugin": "1.3.0",
+    "webpack": "4.35.3",
+    "webpack-cli": "3.3.5",
+    "webpack-dev-server": "3.11.0"
+  }
+}
