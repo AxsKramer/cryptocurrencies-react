@@ -41,10 +41,12 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(jpg|png)$/,
-                use: {
-                    loader: file-loader
-                }
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                    }
+                ]
             }
         ]
     },

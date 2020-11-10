@@ -1,5 +1,5 @@
 # Cryptocurrencies React using Crypto Compare API and Style Components.
-This project shows different cryptos and  prices depends on the fiat money.
+This project shows different cryptos and  prices depends on the fiat money selected.
 
 
 #### Inline code
